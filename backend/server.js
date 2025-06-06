@@ -18,7 +18,7 @@ app.use(session({
 }));
 
 // Connect to MongoDB
-mongoose.connect('Your_CONNECTION_STRING', {
+mongoose.connect('YOUR_CONNECTION_STRING', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
