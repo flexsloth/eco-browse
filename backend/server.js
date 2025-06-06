@@ -18,7 +18,7 @@ app.use(session({
 }));
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://flexsloth:mCe8gyqaG512PvWu@flexsloth.nb0frkg.mongodb.net/', {
+mongoose.connect('Your_CONNECTION_STRING', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
