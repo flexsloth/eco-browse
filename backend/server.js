@@ -143,8 +143,8 @@ app.post('/send-report', async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'omgupta2927@gmail.com', // Your email
-        pass: 'fabxwnehgtlitblr'  // Your email password
+        user: 'YOUR_EMAIL', // Your email
+        pass: 'YOUR_EMAIL_PASSWORD'  // Your email password
       }
     });
 
